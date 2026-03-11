@@ -1,0 +1,77 @@
+/* TRUSTED WORLDWIDE */
+.social-proof {
+  background-color: var(--color-white);
+  text-align: center;
+  scroll-margin-top: var(--scroll-offset);
+}
+
+.social-proof-title {
+  margin-bottom: var(--space-lg);
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-xl);
+  flex-wrap: wrap;
+}
+
+/* FEATURES */
+
+.features {
+  background: var(--color-bg);
+  scroll-margin-top: var(--scroll-offset);
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-sm);
+}
+
+/* HOW IT WORKS */
+.how-it-works {
+  background: var(--color-white);
+  scroll-margin-top: var(--scroll-offset);
+}
+
+.how-it-works-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+  background-color: var(--color-bg);
+  scroll-margin-top: var(--scroll-offset);
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-lg);
+}
+
+/* PRICING */
+
+.pricing {
+  background: var(--color-white);
+  scroll-margin-top: var(--scroll-offset);
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+  max-width: 700px;
+  margin: auto;
+}
+
+/* CTA */
+
+.cta {
+  background: var(--color-bg);
+  text-align: center;
+}

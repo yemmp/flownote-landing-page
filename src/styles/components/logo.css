@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 18px;
+}
+
+.logo img {
+  object-fit: cover;
+  height: 24px;
+  width: 24px;
+}

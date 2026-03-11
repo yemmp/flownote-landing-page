@@ -1,0 +1,31 @@
+header {
+  background: var(--color-white);
+  box-shadow: var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header .primary-btn {
+  margin: var(--space-sm);
+  padding: var(--space-xs);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-md);
+}
+
+.nav-menu {
+  display: flex;
+  gap: var(--space-lg);
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  header {
+    display: none;
+  }
+}

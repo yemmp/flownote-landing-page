@@ -1,0 +1,131 @@
+/* FEATURE CARD */
+.feature-card {
+  background: var(--color-white);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  text-align: center;
+  box-shadow: var(--shadow-lg);
+  min-width: 180px;
+}
+
+.feature-card h3 {
+  padding-bottom: var(--space-sm);
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card span {
+  font-size: 36px;
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+  display: block;
+}
+
+/* HOW IT WORKS CARD */
+.how-it-works-card {
+  text-align: start;
+}
+.how-it-works-card div {
+  display: flex;
+  align-items: center;
+}
+.how-it-works-card p {
+  padding-left: var(--space-xl);
+  margin-bottom: var(--space-lg);
+}
+
+.how-it-works-card img {
+  max-width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+#write-note {
+  transform: scaleX(-1);
+}
+
+.step {
+  background: var(--color-bg);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: var(--space-sm);
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+/* TESTIMONIAL CARD */
+.testimonial {
+  background: var(--color-white);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+.testimonial-header {
+  position: inherit;
+  display: grid;
+  grid-template-columns: 85px 1fr;
+  align-items: center;
+  text-align: start;
+  gap: var(--space-sm);
+  box-shadow: none;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  padding: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.testimonial span {
+  columns: var(--color-text);
+}
+.testimonial-icon {
+  width: 75px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* PRICE CARD */
+.price-card {
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-lg);
+  text-align: center;
+}
+
+.price-card ul {
+  margin-bottom: var(--space-sm);
+}
+
+.price-card li:nth-child(1) {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+}
+.price-card li:nth-child(3) {
+  margin-bottom: var(--space-md);
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.price-card li {
+  text-align: start;
+  padding: var(--space-sm);
+}
+
+.price-card a {
+  width: 100%;
+  padding: var(--space-xs);
+}
+.price-content {
+  padding: var(--space-lg);
+}
+.price-header {
+  position: inherit;
+  padding: var(--space-lg);
+  border-top-left-radius: var(--radius-md);
+  border-top-right-radius: var(--radius-md);
+}
+.price-card.pro .price-header {
+  background: var(--color-secondary);
+  color: var(--color-white);
+  box-shadow: var(--shadow-sm);
+}

@@ -1,0 +1,23 @@
+.primary-btn {
+  text-align: center;
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-sm);
+  display: inline-block;
+}
+
+.secondary-btn {
+  background: var(--color-white);
+  text-align: center;
+  width: 100%;
+  box-shadow: var(--shadow-md);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: (--radius-sm);
+}
+
+.primary-btn.pro {
+  width: 100%;
+
+  background: var(--color-secondary);
+}

@@ -1,0 +1,27 @@
+.hero {
+  background-image: url(../../assets/img/hero-background-image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+.hero span {
+  color: var(--color-primary);
+  font-weight: 200;
+}
+
+.hero-buttons {
+  margin-top: var(--space-md);
+  display: flex;
+  gap: var(--space-sm);
+}
+
+.hero-buttons .primary-btn {
+  width: 100%;
+}
