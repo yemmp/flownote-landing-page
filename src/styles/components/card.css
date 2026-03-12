@@ -76,9 +76,6 @@
   margin-bottom: var(--space-sm);
 }
 
-.testimonial span {
-  columns: var(--color-text);
-}
 .testimonial-icon {
   width: 75px;
   height: auto;
@@ -128,4 +125,10 @@
   background: var(--color-secondary);
   color: var(--color-white);
   box-shadow: var(--shadow-sm);
+}
+
+.price-card span {
+  color: var(--color-accent);
+  font-size: large;
+  font-weight: 900;
 }

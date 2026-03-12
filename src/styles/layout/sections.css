@@ -10,10 +10,10 @@
 }
 
 .logos {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   gap: var(--space-xl);
-  flex-wrap: wrap;
 }
 
 /* FEATURES */
@@ -74,4 +74,15 @@
 .cta {
   background: var(--color-bg);
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  .logos {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .how-it-works-grid {
+    grid-template-columns: 1fr;
+  }
 }
