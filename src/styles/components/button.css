@@ -5,19 +5,35 @@
   padding: var(--space-sm) var(--space-md);
   border-radius: var(--radius-sm);
   display: inline-block;
+
+  transition: all 0.15s ease;
 }
 
 .secondary-btn {
   background: var(--color-white);
   text-align: center;
   width: 100%;
+  border-radius: var(--radius-sm);
   box-shadow: var(--shadow-md);
   padding: var(--space-sm) var(--space-md);
-  border-radius: (--radius-sm);
+
+  transition: all 0.15s ease;
 }
 
 .primary-btn.pro {
   width: 100%;
 
   background: var(--color-secondary);
+}
+
+.primary-btn:hover,
+.secondary-btn:hover {
+  opacity: 0.8;
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+}
+
+.primary-btn:active,
+.secondary-btn:active {
+  transform: translateY(0px);
 }
