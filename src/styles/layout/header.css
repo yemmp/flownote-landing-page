@@ -24,6 +24,26 @@ nav {
   align-items: center;
 }
 
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  position: absolute;
+  content: "";
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  height: 4px;
+  background-color: var(--color-primary);
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
 @media (max-width: 900px) {
   header {
     display: none;

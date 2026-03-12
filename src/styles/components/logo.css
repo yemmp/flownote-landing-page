@@ -5,10 +5,16 @@
   font-weight: 600;
   color: var(--color-primary);
   font-size: 18px;
+  transform: scale(1);
+  transition: all 0.3s ease;
 }
 
 .logo img {
   object-fit: cover;
   height: 24px;
   width: 24px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
 }
